@@ -1,1 +1,5 @@
-Hi this is the file1 data
+#include <stdio.h>
+int main(void) {
+    printf("Hello\n");
+    return 0;
+}
