@@ -7,10 +7,5 @@ pipeline {
                 echo "Building branch: ${env.BRANCH_NAME}"
             }
         }
-        stage('Test') {
-            steps {
-                echo "Running tests on ${env.BRANCH_NAME}"
-            }
-        }
     }
 }
